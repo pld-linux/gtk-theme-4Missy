@@ -14,20 +14,20 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_x11datadir	/usr/X11R6/share
 
 %description
-Theme based of QNX-Photon for GTK
+Theme based of QNX-Photon for GTK.
 
 %description -l pl
-Temat bazuj±cy QNX-Photon dla GTK
+Temat bazuj±cy QNX-Photon dla GTK.
 
 %prep
 %setup  -q -n %{name}
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_x11datadir}/themes/%{name}
 install -d $RPM_BUILD_ROOT%{_x11datadir}/themes/%{name}/gtk
+
 install gtk/gtkrc $RPM_BUILD_ROOT%{_x11datadir}/themes/%{name}
-install gtk/* $RPM_BUILD_ROOT%{_x11datadir}/themes/%{name}/gtk/
+install gtk/* $RPM_BUILD_ROOT%{_x11datadir}/themes/%{name}/gtk
 
 %clean
 rm -rf $RPM_BUILD_ROOT
