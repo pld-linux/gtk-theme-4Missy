@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Themes/Gtk
 Source0:	http://debian.attica.net.nz/themes.org/gtk/4Missy-%{version}.tar.gz
+# Source0-md5:	5f8675da3a5beaac77d818bd172b6a1e
 URL:		http://debian.attica.net.nz/themes.org/gtk/
 Requires:	gtk-engines
 BuildArch:	noarch
