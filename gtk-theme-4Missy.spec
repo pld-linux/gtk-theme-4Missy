@@ -1,11 +1,11 @@
 Summary:	Theme based of QNX-Photon for GTK
 Summary(pl):	Temat bazuj±cy na QNX-Photon dla GTK
-Name:		4Missy
+Name:		gtk-theme-4Missy
 Version:	1.2
 Release:	1
 License:	GPL
 Group:		Themes/Gtk
-Source0:	http://debian.attica.net.nz/themes.org/gtk/%{name}-%{version}.tar.gz
+Source0:	http://debian.attica.net.nz/themes.org/gtk/4Missy-%{version}.tar.gz
 URL:		http://debian.attica.net.nz/themes.org/gtk/
 Requires:	gtk-engines
 BuildArch:	noarch
@@ -20,7 +20,7 @@ Theme based of QNX-Photon for GTK.
 Temat bazuj±cy QNX-Photon dla GTK.
 
 %prep
-%setup  -q -n %{name}
+%setup  -q -n 4Missy
 
 %install
 rm -rf $RPM_BUILD_ROOT
