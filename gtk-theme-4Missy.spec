@@ -1,5 +1,5 @@
-Summary:	Theme based of QNX-Photon for GTK
-Summary(pl):	Motyw bazuj±cy na QNX-Photon dla GTK
+Summary:	Theme based of QNX-Photon for GTK+
+Summary(pl):	Motyw bazuj±cy na QNX-Photon dla GTK+
 Name:		gtk-theme-4Missy
 Version:	1.2
 Release:	2
@@ -15,10 +15,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_x11datadir	/usr/X11R6/share
 
 %description
-Theme based of QNX-Photon for GTK.
+Theme based of QNX-Photon for GTK+.
 
 %description -l pl
-Motyw bazuj±cy QNX-Photon dla GTK.
+Motyw bazuj±cy QNX-Photon dla GTK+.
 
 %prep
 %setup -q -n 4Missy
